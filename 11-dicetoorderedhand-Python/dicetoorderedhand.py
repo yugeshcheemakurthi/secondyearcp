@@ -12,10 +12,7 @@
 
 def dicetoorderedhand(a, b, c):
 	# your code goes here
-	list=[a,b,c]
-	list.sort()
-	list.reverse()
-	x= [str(i) for i in list]
-	y= "".join(x)
-	z= int(y)
-	return z
+	m=(a,b,c)
+    
+	medium= a+b+c-max(m)-min(m)
+	return max(m)*100+medium*10+min(m)
