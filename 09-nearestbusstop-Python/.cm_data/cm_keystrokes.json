@@ -1,0 +1,25 @@
+{
+    "nearestbusstop.py": [
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Thu Jul 15 2021 13:29:23",
+            "keyStrokeInfo": " ",
+            "position": "12,1"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Thu Jul 15 2021 13:29:23",
+            "keyStrokeInfo": " ",
+            "position": "12,2"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Thu Jul 15 2021 13:40:33",
+            "keyStrokeInfo": "\r\n",
+            "position": "11,11"
+        }
+    ]
+}
