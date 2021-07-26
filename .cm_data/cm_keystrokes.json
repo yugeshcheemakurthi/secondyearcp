@@ -1,0 +1,11 @@
+{
+    "AdditivePrime.py": [
+        {
+            "operation": "PASTE",
+            "lines": 29,
+            "keyStrokeTimeStamp": "Mon Jul 26 2021 11:08:50",
+            "keyStrokeInfo": "def isPrime(n):\r\n    if (n <= 1):\r\n        return False\r\n \r\n    if (n <= 3):\r\n        return True\r\n    if (n % 2 == 0 or n % 3 == 0):\r\n        return False\r\n         \r\n    i = 5\r\n    while(i * i <= n):\r\n        if (n % i == 0 or n % (i + 2) == 0):\r\n            return False\r\n        i = i + 6\r\n \r\n    return True\r\n \r\ndef getSum(n):\r\n \r\n    sum = 0\r\n    while (n != 0):\r\n        sum = sum + n % 10\r\n        n = n / 10\r\n    return sum\r\ndef isAdditivePrime(n):\r\n    if (not isPrime(n)):\r\n        return False\r\n    return isPrime(getSum(n))\r\nprint(isAdditivePrime(23))\r\n",
+            "position": "1,1"
+        }
+    ]
+}
