@@ -6,5 +6,7 @@
 # the list.
 
 def issorted(a):
-	# your code goes here
-	pass
+	
+	if(len(a)==0 or a[::-1]==sorted(a) or a==sorted(a)):
+		return True
+	return False
