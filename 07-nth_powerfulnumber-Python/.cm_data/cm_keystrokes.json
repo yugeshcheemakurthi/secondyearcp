@@ -1,0 +1,18 @@
+{
+    "nthpowerfulnumber.py": [
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Jul 28 2021 14:43:55",
+            "keyStrokeInfo": "",
+            "position": "9,2"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 10,
+            "keyStrokeTimeStamp": "Wed Jul 28 2021 14:45:36",
+            "keyStrokeInfo": "def nthpowerfulnumber(n):\r\n    # Your code goes here\r\n    while(n%2==0):\r\n        power=0\r\n        while(n%2==0):\r\n            n=n//2\r\n            power=power+1\r\n        if(power==1):\r\n            return False\r\n    return (n==1)\r\n",
+            "position": "8,1"
+        }
+    ]
+}
