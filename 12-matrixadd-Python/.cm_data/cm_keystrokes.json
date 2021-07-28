@@ -1,0 +1,144 @@
+{
+    "matrixadd.py": [
+        {
+            "operation": "PASTE",
+            "lines": 27,
+            "keyStrokeTimeStamp": "Wed Jul 28 2021 14:27:09",
+            "keyStrokeInfo": "def matrixadd(L, M):\r\n    if (len(L[0])!=len(M[0])):\r\n        return None\r\n    for i in range(len(L)):\r\n        for j in range(1,len(L)):\r\n            if(len(L[i])!=len(L[j])):\r\n                return None\r\n    for i in range(len(M)):\r\n        for j in range(1,len(M)):\r\n            if(len(M[i])!=len(M[j])):\r\n                return None\r\n    arr=[]\r\n    for i in range(0,len(L)):\r\n        #print (arr)\r\n        arr.append([])\r\n        #print\r\n    for i in range (0,len(L)):#0\r\n        for j in range (0,len(L[0])):\r\n            arr[i].append(j)\r\n            #print(arr)\r\n            #print(arr)           \r\n            arr[i][j]=0\r\n    #print(arr)\r\n    for i in range(len(L)):\r\n        for j in range(len(L[i])):\r\n            arr[i][j]+=L[i][j]+M[i][j]\r\n    return arr\r\n",
+            "position": "18,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Jul 28 2021 14:27:16",
+            "keyStrokeInfo": "",
+            "position": "29,7"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Jul 28 2021 14:27:17",
+            "keyStrokeInfo": "a",
+            "position": "29,7"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Jul 28 2021 14:27:17",
+            "keyStrokeInfo": "",
+            "position": "29,7"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Jul 28 2021 14:27:17",
+            "keyStrokeInfo": "",
+            "position": "29,6"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Jul 28 2021 14:27:18",
+            "keyStrokeInfo": "a",
+            "position": "29,6"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Jul 28 2021 14:27:18",
+            "keyStrokeInfo": "",
+            "position": "29,6"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Jul 28 2021 14:27:21",
+            "keyStrokeInfo": "",
+            "position": "32,11"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Jul 28 2021 14:27:22",
+            "keyStrokeInfo": "",
+            "position": "32,10"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Jul 28 2021 14:27:24",
+            "keyStrokeInfo": "",
+            "position": "36,15"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Jul 28 2021 14:27:25",
+            "keyStrokeInfo": "",
+            "position": "36,14"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Jul 28 2021 14:27:29",
+            "keyStrokeInfo": "",
+            "position": "39,15"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Jul 28 2021 14:27:30",
+            "keyStrokeInfo": "",
+            "position": "39,14"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Jul 28 2021 14:27:32",
+            "keyStrokeInfo": "",
+            "position": "43,15"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Jul 28 2021 14:27:33",
+            "keyStrokeInfo": "",
+            "position": "43,14"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Jul 28 2021 14:27:36",
+            "keyStrokeInfo": "",
+            "position": "43,13"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Jul 28 2021 14:27:36",
+            "keyStrokeInfo": "",
+            "position": "43,9"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Jul 28 2021 14:27:37",
+            "keyStrokeInfo": "    a",
+            "position": "43,9"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Jul 28 2021 14:27:42",
+            "keyStrokeInfo": "",
+            "position": "44,14"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Jul 28 2021 14:27:42",
+            "keyStrokeInfo": "",
+            "position": "44,13"
+        }
+    ]
+}
