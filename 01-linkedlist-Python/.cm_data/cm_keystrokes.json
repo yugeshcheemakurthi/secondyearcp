@@ -1,0 +1,11 @@
+{
+    "linkedlist.py": [
+        {
+            "operation": "PASTE",
+            "lines": 55,
+            "keyStrokeTimeStamp": "Wed Jul 28 2021 11:23:04",
+            "keyStrokeInfo": "class Element(object):\r\n    def _init_(self, value):\r\n        self.value = value\r\n        self.next = None\r\n\r\nclass LinkedList(object):\r\n    def _init_(self, head=None):\r\n        self.head = head\r\n\r\n    def append(self, new_element):\r\n        current = self.head\r\n        if self.head:\r\n            while current.next:\r\n                current = current.next\r\n            current.next = new_element\r\n        else:\r\n            self.head = new_element\r\n\r\n    def get_position(self, position):\r\n        counter = 1\r\n        current = self.head\r\n        if position < 1:\r\n            return None\r\n        while current and counter <= position:\r\n            if counter == position:\r\n                return current\r\n            current = current.next\r\n            counter += 1\r\n        return None\r\n\r\n    def insert(self, new_element, position):\r\n        counter = 1\r\n        current = self.head\r\n        if position > 1:\r\n            while current and counter < position:\r\n                if counter == position - 1:\r\n                    new_element.next = current.next\r\n                    current.next = new_element\r\n                current = current.next\r\n                counter += 1\r\n        elif position == 1:\r\n            new_element.next = self.head\r\n            self.head = new_element\r\n\r\n    def delete(self, value):\r\n        current = self.head\r\n        previous = None\r\n        while current.value != value and current.next:\r\n            previous = current\r\n            current = current.next\r\n        if current.value == value:\r\n            if previous:\r\n                previous.next = current.next\r\n            else:\r\n                self.head = current.next",
+            "position": "11,1"
+        }
+    ]
+}

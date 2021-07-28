@@ -1,0 +1,39 @@
+{
+    "matrixadd.py": [
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 27 2021 11:53:11",
+            "keyStrokeInfo": "\r\n# ",
+            "position": "2,71"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 27 2021 11:54:23",
+            "keyStrokeInfo": "\r\n# ",
+            "position": "5,67"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 27 2021 11:57:35",
+            "keyStrokeInfo": "\r\n# ",
+            "position": "14,72"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 27 2021 11:58:26",
+            "keyStrokeInfo": "\r\n# ",
+            "position": "17,91"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 13,
+            "keyStrokeTimeStamp": "Wed Jul 28 2021 11:21:56",
+            "keyStrokeInfo": "# Background: we can think of a 2d list in Python as a matrix in math. To add two matrices, L and M, they must have \r\n# the same dimensions. \r\n# Then, we loop over each row and col, and the result[row][col] is just the sum of L[row][col] and M[row][col]. For example:\r\n# L = [ [1,  2,  3],\r\n#       [4,  5,  6] ]\r\n# M = [ [21, 22, 23],\r\n#       [24, 25, 26]]\r\n# N = [ [1+21, 2+22, 3+23],\r\n#       [4+24, 5+25, 6+26]]\r\n# assert(matrixAdd(L, M) == N)\r\n# With this in mind, write the function matrixAdd(L, M) that takes two rectangular 2d lists (that we will consider \r\n# to be matrices) that you \r\n# may assume only contain numbers, and returns a new 2d list that is the result of adding the two matrices. Return \r\n",
+            "position": "2,1"
+        }
+    ]
+}
