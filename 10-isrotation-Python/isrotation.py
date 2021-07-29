@@ -6,5 +6,14 @@
 # is a rotation of itself.
 
 def isrotation(x, y):
-	# Your code goes here
-	pass
+	
+	a=str(x)
+	b=str(y)
+	l=len(a)
+	if a[::-1]==b:
+		return True
+	for i in range(l):
+		c=a[i:l]+a[:i]
+		if c==b:
+			return True
+	return False
