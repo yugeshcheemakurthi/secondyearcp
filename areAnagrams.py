@@ -10,8 +10,12 @@
 # which could be quite handy here.
 # Hint: The time complexity can be achieved in Linear.
 
-def areAnagrams(s1, s2):
-    # Your code goes here...
-    pass
 
-# write your test cases here...
+import collections
+def areAnagrams(s1, s2):
+    a=s1.lower()
+    b=s2.lower()
+    x=collections.Counter(a)
+    y=collections.Counter(b)
+    return x==y
+print(areAnagrams(input(), input()))
