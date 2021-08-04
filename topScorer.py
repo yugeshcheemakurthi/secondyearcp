@@ -39,3 +39,22 @@ assert(topScorer(data) == 'Fred,Wilma')
 assert(topScorer('') == None)
 print("All test cases passed...!")
 # Hint: you may want to use both splitlines() and split(',') here!
+def topScorer(data):
+    Fred=[]
+    Wilma=[]
+    if(data==''):
+        return None
+    x=data.splitlines()
+    for i in x:
+        s=i.split(",")
+        for j in range(1,len(s)):
+            if(s[0]=="Fred"):
+                Fred.append(int(s[j]))
+            else:
+                Wilma.append(int(s[j]))
+    if(max(Fred)>max(Wilma)):
+        return "Fred"
+    elif(max(Fred)==max(Wilma)):
+        return "Fred,Wilma"
+    else:
+        return "Wilma"
