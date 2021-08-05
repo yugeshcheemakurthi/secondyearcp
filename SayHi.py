@@ -17,15 +17,3 @@ d1 = SayHi('Dot', 4)
 d2 = SayHi('Elf', 3)
 sayHi(d1) 
 sayHi(d2)
-class SayHi(object):
-    def __init__(self, name, age):
-        self.name = name
-        self.age = age
-
-def sayHi(dog):
-    print(f'Hi, my name is {dog.name} and I am {dog.age} years old!')
-
-d1 = SayHi('Dot', 4)
-d2 = SayHi('Elf', 3)
-sayHi(d1) 
-sayHi(d2)
