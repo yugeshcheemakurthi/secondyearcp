@@ -1,0 +1,11 @@
+{
+    "getaverage.py": [
+        {
+            "operation": "PASTE",
+            "lines": 13,
+            "keyStrokeTimeStamp": "Fri Jul 30 2021 14:03:04",
+            "keyStrokeInfo": "def fun_getaverage(s): \r\n\td=s.split(\",\")\r\n\tsum=0\r\n\tcount=0\r\n\tavg=0.0\r\n\tfor i in d:\r\n\t\tif(i.isdigit()):\r\n\t\t\tsum=sum+int(i)\r\n\t\t\tcount=count+1\r\n\tif(count==0):\r\n\t\treturn 0.0\r\n\tavg=sum/count\r\n\treturn avg\r\n",
+            "position": "12,1"
+        }
+    ]
+}

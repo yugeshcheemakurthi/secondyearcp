@@ -1,0 +1,18 @@
+{
+    "canqueenattack.py": [
+        {
+            "operation": "PASTE",
+            "lines": 9,
+            "keyStrokeTimeStamp": "Fri Jul 30 2021 14:09:54",
+            "keyStrokeInfo": "def canQueenAttack(qR, qC, oR, oC):\r\n    # your code goes here\r\n    if abs(qR - oR) == abs(qC - oC):\r\n        return True\r\n    if(qR == oR):\r\n        return True\r\n    if(qC == oC):\r\n        return True\r\n    return False",
+            "position": "6,1"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 5,
+            "keyStrokeTimeStamp": "Fri Jul 30 2021 14:11:53",
+            "keyStrokeInfo": "def canqueenattack(qR, qC, oR, oC):\r\n    if(qR == oR or qC == oC or (qR-oR) == (qC-oC)):\r\n     return True\r\n    else:\r\n        return False\r\n",
+            "position": "6,1"
+        }
+    ]
+}

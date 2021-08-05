@@ -1,0 +1,11 @@
+{
+    "nthwithproperty309.py": [
+        {
+            "operation": "PASTE",
+            "lines": 22,
+            "keyStrokeTimeStamp": "Thu Aug 05 2021 14:08:47",
+            "keyStrokeInfo": "import math\r\ndef checkproperty309(n):\r\n    #flag=True\r\n    x=int(math.pow(n,5))\r\n    #print(x)\r\n    y=str(x)\r\n    list=[\"0\",\"1\",\"2\",\"3\",\"4\",\"5\",\"6\",\"7\",\"8\",\"9\"]\r\n    for i in list:\r\n        #print(i)\r\n        if i not in y:\r\n            return False\r\n    return True\r\ndef nthwithproperty309(n):\r\n    count=0\r\n    i=1\r\n    res=0\r\n    while(count<=n):\r\n        if(checkproperty309(i)):\r\n            count+=1\r\n            res=i\r\n        i+=1\r\n    return res",
+            "position": "7,1"
+        }
+    ]
+}
